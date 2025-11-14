@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samuel Suarez-Mendez — Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Resume website for Samuel Suarez-Mendez — IT student (Cloud Computing), projects, skills, and experience." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Side Navigation -->
+<nav class="sidenav">
+  <div class="nav-profile">
+    <img src="images/face.jpg" alt="Samuel Suarez-Mendez" class="nav-image" />
+    <h2 class="nav-name">Samuel Suarez-Mendez</h2>
+    <div class="visitor-counter">
+      <i class="fa-solid fa-eye"></i>
+      <span id="visitor-counter">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Move button after profile -->
+  <button class="menu-toggle" id="menu-toggle"
+          aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <ul id="primary-nav">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Technical Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+  </ul>
+</nav>
+
+
+  <main>
+    <!-- About -->
+    <section id="about">
+  <h1>About Me</h1>
+  <p>
+    I’m <strong>Samuel Suarez-Mendez</strong>, a first-generation senior at <strong>George Mason University</strong> pursuing a B.S. in Information Technology with a concentration in <strong>Cloud Computing</strong>.
+  </p>
+  <p>
+    I’m <strong>AWS Certified Cloud Practitioner</strong> and currently preparing for the <strong>AWS Solutions Architect – Associate</strong> certification. I’m also developing skills in <strong>Infrastructure as Code (IaC)</strong> with Terraform and plan to expand into <strong>Google Cloud Platform (GCP)</strong> and <strong>Microsoft Azure</strong> certifications.
+  </p>
+  <p>
+   My goal is to continue developing my technical and professional skills while supporting an organization that empowers communities and creates real-world impact through technology.
+  </p>
+  <p class="contact-links">
+  <span><i class="fa-solid fa-location-dot"></i> DC Metro Area</span> &nbsp;•&nbsp;
+
+  <a href="mailto:suarezsam03@gmail.com" class="email">
+    <i class="fa-solid fa-envelope"></i> suarezsam03@gmail.com
+  </a> &nbsp;•&nbsp;
+
+  <a href="https://github.com/Samu160" target="_blank" rel="noopener">
+    <i class="fa-brands fa-github"></i> GitHub
+  </a> &nbsp;•&nbsp;
+
+  <a href="https://www.linkedin.com/in/samuel-suarez-mendez-a23a38192/" target="_blank" rel="noopener">
+    <i class="fa-brands fa-linkedin"></i> LinkedIn
+  </a>
+</p>
+
+</section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <h3>Business Technology Intern — Freddie Mac, McLean, VA</h3>
+        <p><strong>May 2025 – July 2025</strong></p>
+        <ul>
+          <li>Supported CPM team with governance, QA, and communication across BRM and BTO.</li>
+          <li>Resolved data discrepancies in project tracking to achieve 100% report accuracy.</li>
+          <li>Facilitated stakeholder alignment meetings, expanding portfolio project coverage by 13%.</li>
+          <li>Co-developed AI-driven change management automation POC (ServiceNow CMDB, TPI, APIs) projected to save 960+ hours annually.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Time &amp; Product Manager — Triad Energy (Capstone Sponsor), Fairfax, VA</h3>
+        <p><strong>August 2025 – Present</strong></p>
+        <ul>
+          <li>Led Agile planning, sprint tracking, and deliverable coordination for a 5-member team building a client management system.</li>
+          <li>Analyzed operations, identified pain points, and gathered system requirements with stakeholders.</li>
+          <li>Managed documentation, meeting minutes, and quality control for consistent standards.</li>
+          <li>Planned development roadmap and outlined technologies and tools for the solution.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Head Server — Ingle Korean Steakhouse, Vienna, VA</h3>
+        <p><strong>November 2022 – Present</strong></p>
+        <ul>
+          <li>Designed a service protocol recognized in D.C.’s Spring Dining Guide for 2 consecutive years.</li>
+          <li>Increased weekend throughput 30% via staff coordination and workflow refinement.</li>
+          <li>Trained and supervised new hires; maintained a 4.7/5 customer satisfaction rating.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+  <h2>Education</h2>
+  <div class="edu-container">
+    <div class="edu-card">
+      <div class="edu-logo">
+        <img src="images/gmu.jpg" alt="George Mason University logo" />
+      </div>
+      <div class="edu-info">
+        <h3>George Mason University</h3>
+        <p>B.S. in Information Technology<br>
+        Concentration: Cloud Computing<br>
+        <em>Expected Graduation: May 2026</em></p>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-logo">
+        <img src="images/nova_logo.png" alt="Northern Virginia Community College logo" />
+      </div>
+      <div class="edu-info">
+        <h3>Northern Virginia Community College</h3>
+        <p>A.S. in Information Technology<br>
+        <em>Graduated: December 2023</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Technical Skills -->
+    <section id="skills">
+  <h2>Technical Skills</h2>
+
+  <p><strong>Programming &amp; Platforms</strong></p>
+  <div class="chips">
+    <span class="chip">Java</span>
+    <span class="chip">Python</span>
+    <span class="chip">Node.js</span>
+    <span class="chip">Linux</span>
+    <span class="chip">MySQL</span>
+    <span class="chip">HTML</span>
+    <span class="chip">CSS</span>
+    <span class="chip">JSON</span>
+  </div>
+
+  <p><strong>Cloud Platforms</strong></p>
+  <div class="chips">
+    <span class="chip">AWS (EC2, S3, ELB, ASG, CloudWatch, IAM, VPC, RDS, SNS, CFN)</span>
+    <span class="chip">GCP (VM, Cloud SQL)</span>
+    <span class="chip">Azure (VM, VNet, WAF)</span>
+  </div>
+
+  <p><strong>Networking</strong></p>
+  <div class="chips">
+    <span class="chip">IPv4/IPv6</span>
+    <span class="chip">VLANs</span>
+    <span class="chip">OSPF</span>
+    <span class="chip">DHCP</span>
+    <span class="chip">DNS</span>
+    <span class="chip">TCP/IP</span>
+    <span class="chip">Static Routing</span>
+  </div>
+
+  <p><strong>Security &amp; Tools</strong></p>
+  <div class="chips">
+    <span class="chip">Cloud Security</span>
+    <span class="chip">Encryption</span>
+    <span class="chip">Secure Coding</span>
+    <span class="chip">IAM Policy Design</span>
+    <span class="chip">Jira</span>
+    <span class="chip">SharePoint</span>
+    <span class="chip">Microsoft 365</span>
+  </div>
+</section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Serverless Data Pipeline (AWS) — Fall 2025</h3>
+        <ul>
+          <li>Built serverless pipeline using S3, Lambda, and DynamoDB to automate CSV ingestion and processing.</li>
+          <li>Implemented CloudWatch alerts and IAM roles for secure, event-driven automation.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Auto-Scaling Web Application Infrastructure (AWS) — Summer 2025</h3>
+        <ul>
+          <li>Deployed multi-AZ Auto Scaling Group and Elastic Load Balancer to maintain 99.9% uptime.</li>
+          <li>Automated scaling at 40% CPU threshold using CloudWatch metrics and launch templates.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Node.js 3-Tier Architecture Web Application — Spring 2025</h3>
+        <ul>
+          <li>Developed a RESTful Node.js backend parsing URL to handle CRUD operations.</li>
+          <li>Designed and deployed a MySQL database with stored procedures improving query efficiency by 13%.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Restaurant Management System (Java OOP) — Fall 2024</h3>
+        <ul>
+          <li>Developed a modular Java system for restaurant creation, order management, and feedback tracking.</li>
+          <li>Applied OOP principles—encapsulation, inheritance, polymorphism—for scalability and maintainability.</li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <!-- Certification -->
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="cert-container">
+
+    <div>
+    <!-- AWS CCP (static link) -->
+    <a href="https://www.credly.com/badges/38a2c362-3db7-4613-81c3-34b978f28b4a/public_url" 
+       target="_blank" rel="noopener" class="cert-card">
+      <div class="cert-logo">
+        <img src="images/AWS-CCP.png" alt="AWS Certified Cloud Practitioner badge" />
+      </div>
+      <div class="cert-info">
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <p><em>Issued by: Amazon Web Services</em></p>
+      </div>
+    </a>
+    </div>
+    <!-- Agile -->
+    <div class="cert-card">
+      <div class="cert-logo">
+        <img src="images/agile-cert.png" alt="Agile Methodologies logo" />
+      </div>
+      <div class="cert-info">
+        <h3>Agile Methodologies</h3>
+        <p><em>Issued by: Coursera / Scrum Alliance</em></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+  </main>
+  <script>
+  // Stop the browser from restoring a previous scroll position
+  if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+  // If page loads with a leftover #fragment, start at the top once
+  window.addEventListener('load', () => {
+    if (!location.hash) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  });
+</script>
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
